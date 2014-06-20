@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>燕园文化</title>
+<meta charset="UTF-8">
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+
+<script src="jquery/js/jquery.min.js"></script>
+
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="assets/js/html5shiv.js"></script>
+<script src="assets/js/respond.min.js"></script>
+<![endif]-->
+
+
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/modernizr.custom.72241.js"></script>
+
+
+<link href="superfish/dist/css/superfish.css" rel="stylesheet" media="screen">
+<script src="superfish/dist/js/superfish.js"></script>
+<script src="superfish/dist/js/hoverIntent.js"></script>
+
+
+<style type="text/css">
+
+    body {
+        font-family:微软雅黑体,隶书,黑体;
+        font-size: 10pt;
+        background-image: url("assets/images/body11.png");
+        background-repeat: no-repeat;
+        background-size: 1440px;
+    }
+
+    .container {
+        width: 1280px;;
+    }
+
+    /********************************************************/
+    /*             Sections - universal classes             */
+    /********************************************************/
+    .section {
+        z-index: 1;
+        min-height: 420px;
+        width: 100%;
+        overflow: visible;
+        height: 100%;
+        padding-top: 100px;
+        padding-bottom: 0px;
+        display: none;
+        top: 0;
+    }
+
+    /* Show one of sections */
+    #head {
+        display: block;
+    }
+
+    /********************************************************/
+    /*                      Typography                      */
+    /********************************************************/
+    a {
+        color: #000;
+        text-decoration: none;
+        background-repeat: no-repeat;
+        background-position: center;
+        /*text-indent: -9999em;*/
+        width: 58px;
+    }
+
+    a:hover, a:active {
+        color: white;
+        text-decoration: none;
+    }
+
+    .lead {
+        font-weight: normal;
+        font-size: 1.5em;
+        line-height: 1.2em;
+    }
+
+    /********************************************************/
+    /*                      navBar                          */
+    /********************************************************/
+    #kechengbeijing {
+        background-image: url("assets/images/kechengbeijingpoint.png");
+        background-position: top;
+    }
+
+    #kechengbeijing:hover {
+        background-image: url("assets/images/kechengbeijingb.png");
+        background-position: top;
+    }
+
+    #kechengzhubanfang {
+        width: 66px;;
+        background-image: url("assets/images/kechengzhubanfangpoint.png");
+        background-position: top;
+    }
+
+    #kechengzhubanfang:hover {
+        width: 66px;;
+        background-image: url("assets/images/kechengzhubanfangb.png");
+        background-position: top;
+    }
+
+    #kechengduixiang {
+        background-image: url("assets/images/kechengduixiangpoint.png");
+        background-position: top;
+    }
+
+    #kechengduixiang:hover {
+        background-image: url("assets/images/kechengduixiangb.png");
+        background-position: top;
+    }
+
+    #kechengzongzhi {
+        background-image: url("assets/images/kechengzongzhipoint.png");
+        background-position: top;
+    }
+
+    #kechengzongzhi:hover {
+        background-image: url("assets/images/kechengzongzhib.png");
+        background-position: top;
+    }
+
+    #kechengtese {
+        background-image: url("assets/images/kechengtesepoint.png");
+        background-position: top;
+    }
+
+    #lianxifangshi {
+        background-image: url("assets/images/lianxifangshia.png");
+        background-position: top;
+    }
+
+    #kechengtese:hover {
+        background-image: url("assets/images/kechengteseb.png");
+        background-position: top;
+    }
+
+    #kechengneirong {
+        background-image: url("assets/images/kechengneirongpoint.png");
+        background-position: top;
+    }
+
+    #kechengneirong:hover {
+        background-image: url("assets/images/kechengneirongb.png");
+        background-position: top;
+    }
+
+    #daoshizhenrong {
+        background-image: url("assets/images/daoshizhenrongpoint.png");
+        background-position: top;
+    }
+
+    #daoshizhenrong:hover {
+        background-image: url("assets/images/daoshizhenrongpoint.png");
+        background-position: top;
+    }
+
+    #kechengjieshao {
+        background-image: url("assets/images/kechengjieshaopoint.png");
+        background-position: top;
+    }
+
+    #kechengjieshao:hover {
+        background-image: url("assets/images/kechengjieshaob.png");
+        background-position: top;
+    }
+
+    #lianxifangshi:hover {
+        background-image: url("assets/images/lianxifangshib.png");
+        background-position: top;
+    }
+
+    #preloader1 {
+        background-image: url("assets/images/kechengbeijingb.png");
+        width: 0px;
+        height: 0px;
+        display: inline;
+    }
+
+    #preloader2 {
+        background-image: url("assets/images/kechengzhubanfangb.png");
+        width: 0px;
+        height: 0px;
+        display: inline;
+    }
+
+    #preloader3 {
+        background-image: url("assets/images/kechengduixiangb.png");
+        width: 0px;
+        height: 0px;
+        display: inline;
+    }
+
+    #preloader4 {
+        background-image: url("assets/images/kechengzongzhib.png");
+        width: 0px;
+        height: 0px;
+        display: inline;
+    }
+
+    #preloader5 {
+        background-image: url("assets/images/kechengteseb.png");
+        width: 0px;
+        height: 0px;
+        display: inline;
+    }
+
+    #preloader6 {
+        background-image: url("assets/images/kechengneirongb.png");
+        height: 0px;
+        display: inline;
+    }
+
+    #preloader7 {
+        background-image: url("assets/images/daoshizhenrongb.png");
+        width: 0px;
+        height: 0px;
+        display: inline;
+    }
+
+    #preloader8 {
+        background-image: url("assets/images/kechengjieshaob.png");
+        width: 0px;
+        height: 0px;
+        display: inline;
+    }
+    #preloader9 {
+        background-image: url("assets/images/lianxifangshib.png");
+        width: 0px;
+        height: 0px;
+        display: inline;
+    }
+
+</style>
+<script type="text/javascript">
+    // few settings
+    var section_hide_time = 800;
+    var section_show_time = 800;
+
+
+    // jQuery stuff
+    jQuery(document).ready(function ($) {
+
+
+        jQuery('ul.sf-menu').superfish({
+            cssArrows: false
+        });
+
+
+        // Switch section
+
+
+        $("a.trigger").click(function () {
+            if (!$(this).hasClass('active')) {
+                current_item = this;
+                // close all visible divs with the class of .section
+                //$('.section:visible #shell').slideToggle();
+                $('.section:visible').fadeOut(section_hide_time, function () {
+                    $('a', '.mainmenu').removeClass('active');
+                    $(current_item).addClass('active');
+                    var new_section = $($(current_item).attr('href'));
+                    new_section.fadeIn(section_show_time);
+                });
+            }
+            return false;
+        });
+
+
+    });
+</script>
+</head>
+<body>
+<div id="preloader1"></div>
+<div id="preloader2"></div>
+<div id="preloader3"></div>
+<div id="preloader4"></div>
+<div id="preloader5"></div>
+<div id="preloader6"></div>
+<div id="preloader7"></div>
+<div id="preloader8"></div>
+<div id="preloader9"></div>
+
+
+<div class="container text-center" style="position: absolute;left: 30px;top: 0px;">
+
+<div class="row">
+
+<div class="row mainmenu">
+<div class="span2" style="width: 220px; height: 100px;">
+    <a href="#head" class="trigger" id="logo"><img src="assets/images/logo.png" style="margin-top:39px;"></a>
+</div>
+<div class="span9">
+    <div class="row" style="height: 70px;">
+        <div class="span12"></div>
+
+    </div>
+    <ul id="sample-menu-1" class="sf-menu">
+        <li>
+            <a href="#beijing" class="trigger" id="kechengbeijing"
+               style="width: 33px; height: 18px;margin-right: 12px;"></a>
+        </li>
+        <li>
+            <a href="#zhubanfang" class="trigger" id="kechengzhubanfang"
+               style="width: 50px; height: 17px;margin-right: 12px;"></a>
+        </li>
+        <li>
+            <a href="#duixiang" class="trigger" id="kechengduixiang"
+               style="width: 33px; height: 18px;margin-right: 12px;"></a>
+        </li>
+        <li>
+            <a href="#zongzhi" class="trigger" id="kechengzongzhi"
+               style="width: 33px; height: 18px;margin-right: 12px;"></a>
+        </li>
+        <li>
+            <a href="#tese" class="trigger" id="kechengtese"
+               style="width: 33px; height: 18px;margin-right: 12px;"></a>
+        </li>
+        <li>
+            <a href="#neirong" class="trigger" id="kechengneirong"
+               style="width: 33px; height: 18px;margin-right: 12px;"></a>
+        </li>
+
+
+        <style type="text/css">
+            #gaoyia {
+                background-image: url("assets/images/gaoyib.png");
+                background-size: 50px;
+            }
+            #wangxinshenga {
+                background-image: url("assets/images/wangxinshengb.png");
+                background-size: 50px;
+            }
+            #qianchengdana {
+                background-image: url("assets/images/qianchengdanb.png");
+                background-size: 50px;
+            }
+            #yanbukea {
+                background-image: url("assets/images/yanbukeb.png");
+                background-size: 50px;
+            }
+            #dengxiaonana {
+                background-image: url("assets/images/dengxiaonanb.png");
+                background-size: 50px;
+            }
+            #qinhuia {
+                background-image: url("assets/images/qinhuib.png");
+                background-size: 50px;
+            }
+            #yangkuisonga {
+                background-image: url("assets/images/yangkuisongb.png");
+                background-size: 50px;
+            }
+            #xueera {
+                background-image: url("assets/images/xueerb.png");
+                background-size: 82px;
+            }
+            #shunjiazhoua {
+                background-image: url("assets/images/sunjiazhoub.png");
+                background-size: 50px;
+            }
+            #xujiaruna {
+                background-image: url("assets/images/xuzhangrunb.png");
+                background-size: 50px;
+            }
+            #wangxiaopua {
+                background-image: url("assets/images/wangxiaopub.png");
+                background-size: 50px;
+            }
+            #pengxiaoyua {
+                background-image: url("assets/images/pengxiaoyub.png");
+                background-size: 50px;
+            }
+            #wangqishenga {
+                background-image: url("assets/images/wangqishengb.png");
+                background-size: 50px;
+            }
+            #wangxia {
+                background-image: url("assets/images/wangxib.png");
+                background-size: 50px;
+            }
+            #wangjisia {
+                background-image: url("assets/images/wangjisib.png");
+                background-size: 50px;
+            }
+            #lizhonghuaa {
+                background-image: url("assets/images/lizhonghuab.png");
+                background-size: 50px;
+            }
+            #lisilonga {
+                background-image: url("assets/images/lisilongb.png");
+                background-size: 50px;
+            }
+            #zhuqingshenga {
+                background-image: url("assets/images/zhuqingshengb.png");
+                background-size: 50px;
+            }
+            #hanyuhaia {
+                background-image: url("assets/images/hanyuhaib.png");
+                background-size: 50px;
+            }
+            #zhenrongul{
+                background-image:url("assets/images/zhenrongline.png")
+            }
+        </style>
+        <!--[if lt IE 9]>
+        <style type="text/css">
+            #gaoyia {
+                background-image: none;
+            }
+            #wangxinshenga {
+                background-image: none;
+            }
+            #qianchengdana {
+                background-image: none;
+            }
+            #yanbukea {
+                background-image: none;
+            }
+            #dengxiaonana {
+                background-image: none;
+            }
+            #qinhuia {
+                background-image: none;
+            }
+            #yangkuisonga {
+                background-image: none;
+            }
+            #xueera {
+                background-image: none;
+            }
+            #shunjiazhoua {
+                background-image: none;
+            }
+            #xujiaruna {
+                background-image: none;
+            }
+            #wangxiaopua {
+                background-image: none;
+            }
+            #pengxiaoyua {
+                background-image: none;
+            }
+            #wangqishenga {
+                background-image: none;
+            }
+            #wangxia {
+                background-image: none;
+            }
+            #wangjisia {
+                background-image: none;
+            }
+            #lizhonghuaa {
+                background-image: none;
+            }
+            #lisilonga {
+                background-image: none;
+            }
+            #zhuqingshenga {
+                background-image: none;
+            }
+            #hanyuhaia {
+                background-image: none;
+            }
+            #zhenrongul{
+                background-image:url("assets/images/zhenrongline2.png")
+            }
+        </style>
+        <![endif]-->
+
+
+
+        <li>
+            <a href="#zhenrong" id="daoshizhenrong" style="width: 33px; height: 18px;margin-right: 12px;"></a>
+            <ul id="zhenrongul" style="background-repeat: no-repeat;">
+
+
+
+
+
+                <li style="width: 53px; height:28px;" id="gaoyi" style="padding-right: 80px;">
+                    <a id="gaoyia" href="#gaoyisection" class="trigger"></a>
+                </li>
+
+                <li style="width: 53px; height:28px;" id="wangxinsheng" style="padding-right: 80px;">
+                    <a id="wangxinshenga" href="#wangxinshengsection" class="trigger"></a>
+                </li>
+
+                <li style="width: 53px; height:28px;" id="qianchengdan" style="padding-right: 80px;">
+                    <a id="qianchengdana" href="#qianchengdansection" class="trigger"></a>
+                </li>
+
+                <li style="width: 53px; height:28px;" id="yanbuke" style="padding-right: 80px;">
+                    <a id="yanbukea" href="#yanbukesection" class="trigger"></a>
+                </li>
+
+                <li style="width: 53px; height:28px;" id="dengxiaonan" style="padding-right: 80px;">
+                    <a id="dengxiaonana" href="#dengxiaonansection" class="trigger"></a>
+                </li>
+
+                <li style="width: 53px; height:28px;" id="qinhui" style="padding-right: 80px;">
+                    <a id="qinhuia" href="#qinhuisection" class="trigger"></a>
+                </li>
+
+                <li style="width: 53px; height:28px;" id="yangkuisong" style="padding-right: 80px;">
+                    <a id="yangkuisonga" href="#yangkuisongsection" class="trigger"></a>
+                </li>
+
+                <li style="width: 53px; height:28px;" id="xueer" style="padding-right: 80px;">
+                    <a id="xueera" href="#xueersection" class="trigger" style="width: 88px;"></a>
+                </li>
+
+                <li style="width: 53px; height:28px;" id="shunjiazhou" style="padding-right: 80px;">
+                    <a id="shunjiazhoua" href="#shunjiazhousection" class="trigger"></a>
+                </li>
+
+                <li style="width: 53px; height:28px;" id="xujiarun" style="padding-right: 80px;">
+                    <a id="xujiaruna" href="#xujiarunsection" class="trigger"></a>
+                </li>
+
+
+                <li style="width: 53px; height:28px;" id="wangxiaopu" style="padding-right: 80px;">
+                    <a id="wangxiaopua" href="#wangxiaopusection" class="trigger"></a>
+                </li>
+
+                <li style="width: 53px; height:28px;" id="pengxiaoyu" style="padding-right: 80px;">
+                    <a id="pengxiaoyua" href="#pengxiaoyusection" class="trigger"></a>
+                </li>
+
+                <li style="width: 53px; height:28px;" id="wangqisheng" style="padding-right: 80px;">
+                    <a id="wangqishenga" href="#wangqishengsection" class="trigger"></a>
+                </li>
+
+
+                <li style="width: 53px; height:28px;" id="wangxi" style="padding-right: 80px;">
+                    <a id="wangxia" href="#wangxisection" class="trigger"></a>
+                </li>
+
+                <li style="width: 53px; height:28px;" id="wangjisi" style="padding-right: 80px;">
+                    <a id="wangjisia" href="#wangjisisection" class="trigger"></a>
+                </li>
+
+                <li style="width: 53px; height:28px;" id="lizhonghua" style="padding-right: 80px;">
+                    <a id="lizhonghuaa" href="#lizhonghuasection" class="trigger"></a>
+                </li>
+
+                <li style="width: 53px; height:28px;" id="lisilong" style="padding-right: 80px;">
+                    <a id="lisilonga" href="#lisilongsection" class="trigger"></a>
+                </li>
+
+                <li style="width: 53px; height:28px;" id="zhuqingsheng" style="padding-right: 80px;">
+                    <a id="zhuqingshenga" href="#zhuqingshengsection" class="trigger"></a>
+                </li>
+
+                <li style="width: 53px; height:28px;" id="hanyuhai" style="padding-right: 80px;">
+                    <a id="hanyuhaia" href="#hanyuhaisection" class="trigger"></a>
+                </li>
+
+
+            </ul>
+        </li>
+
+        <li>
+            <a href="#jieshao" class="trigger" id="kechengjieshao"
+               style="width: 33px; height: 18px;margin-right: 12px;"></a>
+        </li>
+
+        <li>
+            <a href="#lianxi" class="trigger" id="lianxifangshi" style="width: 33px; height: 18px;"></a>
+        </li>
+    </ul>
+</div>
+<!--
+<div class="span1 offset2" style="padding-left: 10px;">
+    <a href="#beijing" class="trigger" id="kechengbeijing">课程背景</a>
+</div>
+<div class="span1" style="width: 73px;">
+    <a href="#zhubanfang" class="trigger">课程主办方</a>
+</div>
+<div class="span1">
+    <a href="#duixiang" class="trigger">课程对象</a>
+</div>
+<div class="span1">
+    <a href="#zongzhi" class="trigger">课程宗旨</a>
+</div>
+<div class="span1">
+    <a href="#tese" class="trigger">课程特色</a>
+</div>
+<div class="span1">
+    <a href="#neirong" class="trigger">课程内容</a>
+</div>
+<div class="span1">
+    <nav>
+        <ul>
+
+            <li>导师阵容
+                <ul>
+                    <li>二级菜单</li>
+                    <li>二级菜单</li>
+                    <li>二级菜单</li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</div>
+<div class="span1">
+    <a href="#jieshao" class="trigger">课程介绍</a>
+</div>
+-->
+</div>
+</div>
+
+<div class="row" style="height: 560px;">
+
+<!--主页-->
+<section class="section" id="head">
+    <div class="row">
+        <div class="span6 offset1">
+            <div class="row" style="height: 120px;">
+                <div class="span12"></div>
+
+            </div>
+            <img src="assets/images/zhuye-01.png"
+                 style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/zhuye-01.png', enabled=true, sizingMethod=scale);"/>
+        </div>
+        <div class="span1" style="width: 200px"></div>
+        <div class="span4" style="width: 500px;">
+            <div id="shell">
+                <img src="assets/images/zhuye-02.png" width="70%"
+                     style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/zhuye-02.png', enabled=true, sizingMethod=scale);"/>
+                <!--
+                <img src="assets/images/plax_sphere_small.png" width="93" height="92" id="plax-sphere-1"/>
+                <img src="assets/images/plax_sphere_large.png" width="215" height="215" id="plax-sphere-2"/>
+                <img src="assets/images/plax_sphere_small.png" width="93" height="92" id="plax-sphere-3"/>
+                -->
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--课程背景-->
+<section class="section" id="beijing">
+    <div class="span5 offset1" style="width: 500px;">
+        <div class="row" style="height: 0px;"></div>
+        <img src="assets/images/beijing.png"
+             style="float: left;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/beijing.png', enabled=true, sizingMethod=scale);"/>
+    </div>
+    <div class="span5"></div>
+</section>
+
+
+<!--课程主办方-->
+<section class="section" id="zhubanfang">
+    <div class="span5  offset2" style="width: 400px;">
+        <div class="row" style="height: 0px;"></div>
+        <img src="assets/images/zhubanfang.png"
+             style="float: left;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/zhubanfang.png', enabled=true, sizingMethod=scale);"/>
+    </div>
+    <div class="span5"></div>
+</section>
+
+
+<!--课程对象-->
+<section class="section" id="duixiang">
+    <div class="span5  offset4" style="width: 340px;">
+        <div class="row" style="height: 0px;"></div>
+        <img src="assets/images/duixiang.png"
+             style="float: left;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/duixiang.png', enabled=true, sizingMethod=scale); "/>
+    </div>
+    <div class="span3"></div>
+</section>
+
+<!--课程宗旨-->
+<section class="section" id="zongzhi">
+    <div class="span4  offset2" style="width: 300px;">
+        <div class="row" style="height: 0px;"></div>
+        <img src="assets/images/zongzhi.png"
+             style="float: right;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/zongzhi.png', enabled=true, sizingMethod=scale);"/>
+    </div>
+    <div class="span5"></div>
+</section>
+
+
+<!--课程特色-->
+<section class="section" id="tese">
+    <div class="span10 offset2" style="width: 500px;">
+        <div class="row" style="height: 0px;"></div>
+        <img src="assets/images/tese.png"
+             style="float: left;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/tese.png', enabled=true, sizingMethod=scale);"/>
+    </div>
+</section>
+
+
+<!--课程内容-->
+<section class="section" id="neirong">
+    <div class="span10 offset2" style="width: 1000px;">
+
+
+        <div id="myCarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="active item">
+                    <img src="assets/images/neirong.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="assets/images/neirong2.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="assets/images/neirong3.png" alt="">
+                </div>
+            </div>
+            <!-- Carousel nav -->
+            <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+            <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+        </div>
+
+
+    </div>
+</section>
+
+
+<!--课程介绍-->
+<section class="section" id="jieshao">
+    <div class="span5 offset2" style="width: 600px;">
+        <div class="row" style="height: 0px;"></div>
+        <img src="assets/images/jieshao.png"
+             style="float: left;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/jieshao.png', enabled=true, sizingMethod=scale);"/>
+    </div>
+    <div class="span5"></div>
+</section>
+
+<!--联系方式-->
+<section class="section" id="lianxi">
+    <div class="span5 offset2" style="width: 600px;">
+        <div class="row" style="height: 0px;"></div>
+        <img src="assets/images/lianxi.png"
+             style="float: right;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/lianxi.png', enabled=true, sizingMethod=scale);"/>
+    </div>
+    <div class="span5"></div>
+</section>
+
+
+<!--姓名gaoyi-->
+<section class="section" id="gaoyisection">
+    <div class="span7" style="width: 400px;">
+        <div class="row" style="height: 50px;"></div>
+        <img src="assets/images/gaoyid.png"
+             style="float: right;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/gaoyid.png', enabled=true, sizingMethod=scale);"/>
+    </div>
+    <div class="span5"></div>
+</section>
+
+<!--姓名wangxinsheng-->
+<section class="section" id="wangxinshengsection">
+    <div class="span7" style="width: 400px;">
+        <div class="row" style="height: 50px;"></div>
+        <img src="assets/images/wangxinshengd.png"
+             style="float: right;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/wangxinshengd.png', enabled=true, sizingMethod=scale);"/>
+    </div>
+    <div class="span5"></div>
+</section>
+
+<!--姓名qianchengdan-->
+<section class="section" id="qianchengdansection">
+    <div class="span7" style="width: 400px;">
+        <div class="row" style="height: 50px;"></div>
+        <img src="assets/images/qianchengdand.png"
+             style="float: right;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/qianchengdand.png', enabled=true, sizingMethod=scale);"/>
+    </div>
+    <div class="span5"></div>
+</section>
+
+
+<!--姓名-->
+<section class="section" id="yanbukesection">
+    <div class="span7" style="width: 400px;">
+        <div class="row" style="height: 50px;"></div>
+        <img src="assets/images/yanbuked.png"
+             style="float: right;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/yanbuked.png', enabled=true, sizingMethod=scale);"/>
+    </div>
+    <div class="span5"></div>
+</section>
+
+<!--姓名-->
+<section class="section" id="dengxiaonansection">
+    <div class="span7" style="width: 400px;">
+        <div class="row" style="height: 50px;"></div>
+        <img src="assets/images/dengxiaonand.png"
+             style="float: right;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/dengxiaonand.png', enabled=true, sizingMethod=scale);"/>
+    </div>
+    <div class="span5"></div>
+</section>
+
+
+<!--姓名-->
+<section class="section" id="qinhuisection">
+    <div class="span7" style="width: 400px;">
+        <div class="row" style="height: 50px;"></div>
+        <img src="assets/images/qinhuid.png"
+             style="float: right;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/qinhuid.png', enabled=true, sizingMethod=scale);"/>
+    </div>
+    <div class="span5"></div>
+</section>
+
+
+<!--姓名-->
+<section class="section" id="yangkuisongsection">
+    <div class="span7" style="width: 400px;">
+        <div class="row" style="height: 50px;"></div>
+        <img src="assets/images/yangkuisongd.png"
+             style="float: right;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/yangkuisongd.png', enabled=true, sizingMethod=scale);"/>
+    </div>
+    <div class="span5"></div>
+</section>
+
+<section class="section" id="xueersection">
+    <div class="span7" style="width: 400px;">
+        <div class="row" style="height: 50px;"></div>
+        <img src="assets/images/xueerd.png"
+             style="float: right;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/xueerd.png', enabled=true, sizingMethod=scale);"/>
+    </div>
+    <div class="span5"></div>
+</section>
+
+
+<section class="section" id="sunjiazhousection">
+    <div class="span7" style="width: 400px;">
+        <div class="row" style="height: 50px;"></div>
+        <img src="assets/images/sunjiazhoud.png"
+             style="float: right;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/sunjiazhoud.png', enabled=true, sizingMethod=scale);"/>
+    </div>
+    <div class="span5"></div>
+</section>
+
+
+<section class="section" id="xujiarunsection">
+    <div class="span7" style="width: 400px;">
+        <div class="row" style="height: 50px;"></div>
+        <img src="assets/images/xuzhangrund.png"
+             style="float: right;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/xuzhangrund.png', enabled=true, sizingMethod=scale);"/>
+    </div>
+    <div class="span5"></div>
+</section>
+
+<section class="section" id="wangxiaopusection">
+    <div class="span7" style="width: 400px;">
+        <div class="row" style="height: 50px;"></div>
+        <img src="assets/images/wangxiaopud.png"
+             style="float: right;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/wangxiaopud.png', enabled=true, sizingMethod=scale);"/>
+    </div>
+    <div class="span5"></div>
+</section>
+
+
+<section class="section" id="pengxiaoyusection">
+    <div class="span7" style="width: 400px;">
+        <div class="row" style="height: 50px;"></div>
+        <img src="assets/images/pengxiaoyud.png"
+             style="float: right;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/pengxiaoyud.png', enabled=true, sizingMethod=scale);"/>
+    </div>
+    <div class="span5"></div>
+</section>
+
+<section class="section" id="wangqishengsection">
+    <div class="span7" style="width: 400px;">
+        <div class="row" style="height: 50px;"></div>
+        <img src="assets/images/wangqishengd.png"
+             style="float: right;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/wangqishengd.png', enabled=true, sizingMethod=scale);"/>
+    </div>
+    <div class="span5"></div>
+</section>
+
+<section class="section" id="wangxisection">
+    <div class="span7" style="width: 400px;">
+        <div class="row" style="height: 50px;"></div>
+        <img src="assets/images/wangxid.png"
+             style="float: right;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/wangxid.png', enabled=true, sizingMethod=scale);"/>
+    </div>
+    <div class="span5"></div>
+</section>
+
+<section class="section" id="wangjisisection">
+    <div class="span7" style="width: 400px;">
+        <div class="row" style="height: 50px;"></div>
+        <img src="assets/images/wangjisid.png"
+             style="float: right;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/wangjisid.png', enabled=true, sizingMethod=scale);"/>
+    </div>
+    <div class="span5"></div>
+</section>
+
+<section class="section" id="lizhonghuasection">
+    <div class="span7" style="width: 400px;">
+        <div class="row" style="height: 50px;"></div>
+        <img src="assets/images/lizhonghuad.png"
+             style="float: right;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/lizhonghuad.png', enabled=true, sizingMethod=scale);"/>
+    </div>
+    <div class="span5"></div>
+</section>
+
+<section class="section" id="lisilongsection">
+    <div class="span7" style="width: 400px;">
+        <div class="row" style="height: 50px;"></div>
+        <img src="assets/images/lisilongd.png"
+             style="float: right;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/lisilongd.png', enabled=true, sizingMethod=scale);"/>
+    </div>
+    <div class="span5"></div>
+</section>
+
+
+<section class="section" id="zhuqingshengsection">
+    <div class="span7" style="width: 400px;">
+        <div class="row" style="height: 50px;"></div>
+        <img src="assets/images/zhuqingshengd.png"
+             style="float: right;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/zhuqingshengd.png', enabled=true, sizingMethod=scale);"/>
+    </div>
+    <div class="span5"></div>
+</section>
+
+<section class="section" id="hanyuhaisection">
+    <div class="span7" style="width: 400px;">
+        <div class="row" style="height: 50px;"></div>
+        <img src="assets/images/hanyuhaid.png"
+             style="float: right;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/hanyuhaid.png', enabled=true, sizingMethod=scale);"/>
+    </div>
+    <div class="span5"></div>
+</section>
+
+
+<!--课程微信-->
+<section class="section" id="weixin">
+    <div class="span8 offset4 text-center">
+        <img src="assets/images/weixin.png"
+             style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/weixin.png', enabled=true, sizingMethod=scale);"/>
+    </div>
+</section>
+
+<!--课程微博-->
+<section class="section" id="weibo">
+    <div class="span8 offset4 text-center">
+        <img src="assets/images/weixin.png"
+             style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/weixin.png', enabled=true, sizingMethod=scale);"/>
+    </div>
+</section>
+
+
+<!--课程邮箱-->
+<section class="section" id="youxiang">
+    <div class="span8 offset4 text-center">
+        <img src="assets/images/weixin.png"
+             style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/weixin.png', enabled=true, sizingMethod=scale);"/>
+    </div>
+</section>
+
+
+<!--课程课件-->
+<section class="section" id="kejian">
+    <div class="span8 offset4 text-center">
+        <img src="assets/images/weixin.png"
+             style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/weixin.png', enabled=true, sizingMethod=scale);"/>
+    </div>
+</section>
+</div>
+
+<style type="text/css">
+    #nonpoint a {
+        color: #444;
+
+    }
+
+    #nonpoint a:hover {
+        color: #000;
+        font-weight: bold;
+    }
+</style>
+<div class="row">
+    <div class="row" style="height: 0px;">
+        <div class="span12"></div>
+    </div>
+    <div class="row mainmenu">
+        <div class="span4 offset1" style="width: 400px;">
+            <ul class="sf-menu" id="nonpoint">
+                <li><a href="#weixin" class="trigger">微&nbsp&nbsp信</a></li>
+                <li><a href="http://weibo.com/u/5158458037" target="_blank"
+                       style="background-image: url('assets/images/linebottom.png'); background-repeat: no-repeat;background-position: left;;">微&nbsp&nbsp博</a>
+                </li>
+                <li><a href="#youxiang" class="trigger"
+                       style="background-image: url('assets/images/linebottom.png'); background-repeat: no-repeat;background-position: left;;">邮&nbsp&nbsp箱</a>
+                </li>
+                <li><a href="baomingbiao.docx"
+                       style="width: 70px;background-image: url('assets/images/linebottom.png'); background-repeat: no-repeat;background-position: left;">报名表下载</a>
+                </li>
+            </ul>
+        </div>
+        <div class="span4 offset4">
+            <ul>
+                <img src="assets/images/beian.png"
+                     style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/beian.png', enabled=true, sizingMethod=scale);"/>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+
+<!--[if lt IE 9]>
+<script type="text/javascript">
+    document.getElementById('gaoyia').innerHTML = '高毅';
+    document.getElementById('wangxinshenga').innerHTML = '王新生';
+    document.getElementById('qianchengdana').innerHTML = '钱乘旦';
+    document.getElementById('yanbukea').innerHTML = '阎步克';
+    document.getElementById('dengxiaonana').innerHTML = '邓小楠';
+    document.getElementById('qinhuia').innerHTML = '秦晖';
+    document.getElementById('yangkuisonga').innerHTML = '杨奎松';
+    document.getElementById('xueera').innerHTML = '雪珥(蒋文胜)';
+    document.getElementById('shunjiazhoua').innerHTML = '孙家洲';
+    document.getElementById('xujiaruna').innerHTML = '许章润';
+    document.getElementById('wangxiaopua').innerHTML = '王小甫';
+    document.getElementById('pengxiaoyua').innerHTML = '彭小瑜';
+    document.getElementById('wangqishenga').innerHTML = '王奇生';
+    document.getElementById('wangxia').innerHTML = '王希';
+    document.getElementById('wangjisia').innerHTML = '王缉思';
+    document.getElementById('lizhonghuaa').innerHTML = '李中华';
+    document.getElementById('lisilonga').innerHTML = '李四龙';
+    document.getElementById('zhuqingshenga').innerHTML = '朱青生';
+    document.getElementById('hanyuhaia').innerHTML = '韩毓海';
+</script>
+<![endif]-->
+
+</body>
+</html>

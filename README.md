@@ -1,2 +1,2 @@
-A static website which was created to present a cultural project.<br/>
+A static website created for presenting traditional Chinese culture.<br/>
 demo：http://www.hzwise.com
